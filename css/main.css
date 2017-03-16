@@ -1,0 +1,259 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background: #262626;
+  padding-top: 61px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand.logo img {  
+    height: 50px;
+    margin-top: -10px;
+}
+
+.home-select {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.content {
+  background: #F6F6F6;
+  padding-bottom: 100px;
+}
+
+.card a:hover .img-responsive {
+  opacity: 0.75;
+}
+
+a.card:hover .img-responsive {
+  opacity: 0.75;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.activity-detail-pict {
+  width: 500px;
+}
+
+.logo-org {
+  height: 100px;
+  margin: 0;
+}
+
+.cart {
+  display: inline-block;
+  border-left: solid 1px #666;
+}
+
+.program .img-responsive {
+  width: 150px;
+}
+
+.logo-org .img-responsive {
+  max-height: 100%;
+}
+
+.text-black {
+  color: #484848 !important;
+}
+
+.text-grey {
+  color: #999 !important;
+}
+
+
+.font-big {
+  font-size: 2em;
+}
+
+.font-xl {
+  font-size: 4em;
+}
+
+.navbar-header {
+  color: #FFF;
+  float: none;
+}
+
+.navbar-inverse .btn-link {
+  color: #FFF;
+}
+
+.logo {
+  width: 200px;
+}
+
+.btn-primary,
+.btn-primary:link,
+.btn-primary:visited,
+.btn-primary:hover,
+.btn-primary:active {
+  background: #c50e08;
+  border: none;
+  color: #FFF;
+}
+
+.btn-success,
+.btn-success:link,
+.btn-success:visited,
+.btn-success:hover,
+.btn-success:active {
+  background: #7AC142;
+  border: solid 1px #FFF;
+  color: #FFF;
+}
+
+.btn-info,
+.btn-info:link,
+.btn-info:visited,
+.btn-info:hover,
+.btn-info:active {
+  background: #FFF;
+  border: solid 1px #DDD;
+  color: #484848;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}
+
+.home-search {
+  width: 330px !important;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+.jumbotron-home {
+  background-position: 50% 25%;
+  background-size: cover;
+  min-height: 400px;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.jumbotron-home .container {
+  margin-top: 80px;
+}
+
+.jumbotron-organization {
+  background-position: 50% 25%;
+  background-size: cover;
+  color: #FFF;
+  padding: 25px 0 75px 0;
+}
+
+.jumbotron-organization a {
+  color: #FFF;
+}
+
+.jumbotron-organization .details {
+  font-size: 1.143em;
+}
+
+.jumbotron-organization h1,
+.jumbotron-organization .headline {
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.jumbotron-organization-logo {
+  display: inline-block;
+  max-width: 150px;
+}
+
+.nav-organization {
+  border-bottom: 0;
+  margin-top: -52px;
+  margin-left: 340px;
+}
+
+.nav-tabs.nav-organization>li>a {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px 3px 0 0;
+  color: #FFF;
+  font-size: 1.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-tabs.nav-organization>li.active>a {
+  background: #F6F6F6;
+  border: solid 2px #FFF;
+  border-bottom: none;
+  color: #484848;
+  font-weight: bold;
+}
+
+.bg-white {
+  background: #FFF;
+}
+
+@media (min-width: 1350px) {
+  .container {
+      width: 1330px;
+  }
+}
+
+.btn,
+.well {
+  border-radius: 2px !important;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        padding:20px
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        padding:30px
+    }
+}
+
+.card--flat {
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.25)
+}
+
+.card--mini {
+    padding: 10px
+}
+
+@media screen and (min-width: 1200px) {
+    .card--mini {
+        padding:15px
+    }
+}
+
+.card--mini__header {
+    margin-top: 0!important;
+    font-size: 1em;
+    font-weight: 700
+}
+
+.card>h1,.card>h2,.card>h3 {
+    margin-top: 0
+}
+
+.card ol,.card ul {
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 35px
+}
+
+footer {
+  color: #FFF;
+  padding: 15px 0;
+}

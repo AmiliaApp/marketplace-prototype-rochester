@@ -1,0 +1,298 @@
+﻿/**
+  Spacing helpers
+
+  ==First letter==
+  m: margin
+  p: padding
+
+  ==Second letter==
+  t: top
+  r: right
+  b: bottom
+  l: left
+  h: horizontal
+  v: vertical
+
+  ==Modifiers==
+  --less: Less spacing
+  --more: More spacing
+  --mini: Mini spacing
+  --maxi: Maxi spacing
+  --none: No spacing (with !important)
+*/
+.mt {
+  margin-top: 20px;
+}
+.mt--maxi {
+  margin-top: 50px;
+}
+.mt--mini {
+  margin-top: 3px;
+}
+.mt--more {
+  margin-top: 30px;
+}
+.mt--less {
+  margin-top: 10px;
+}
+.mt--none {
+  margin-top: 0 !important;
+}
+.mr {
+  margin-right: 20px;
+}
+.mr--maxi {
+  margin-right: 50px;
+}
+.mr--mini {
+  margin-right: 3px;
+}
+.mr--more {
+  margin-right: 30px;
+}
+.mr--less {
+  margin-right: 10px;
+}
+.mr--none {
+  margin-right: 0 !important;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.mb--maxi {
+  margin-bottom: 50px;
+}
+.mb--mini {
+  margin-bottom: 3px;
+}
+.mb--more {
+  margin-bottom: 30px;
+}
+.mb--less {
+  margin-bottom: 10px;
+}
+.mb--none {
+  margin-bottom: 0 !important;
+}
+.ml {
+  margin-left: 20px;
+}
+.ml--maxi {
+  margin-left: 50px;
+}
+.ml--mini {
+  margin-left: 3px;
+}
+.ml--more {
+  margin-left: 30px;
+}
+.ml--less {
+  margin-left: 10px;
+}
+.ml--none {
+  margin-left: 0 !important;
+}
+.mh {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.mh--maxi {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.mh--mini {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.mh--more {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.mh--less {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.mh--none {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.mv {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.mv--maxi {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.mv--mini {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.mv--more {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.mv--less {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.mv--none {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.ma {
+  margin: 20px;
+}
+.ma--maxi {
+  margin: 50px;
+}
+.ma--mini {
+  margin: 3px;
+}
+.ma--more {
+  margin: 30px;
+}
+.ma--less {
+  margin: 10px;
+}
+.ma--none {
+  margin: 0 !important;
+}
+.pt {
+  padding-top: 20px;
+}
+.pt--maxi {
+  padding-top: 50px;
+}
+.pt--mini {
+  padding-top: 3px;
+}
+.pt--more {
+  padding-top: 30px;
+}
+.pt--less {
+  padding-top: 10px;
+}
+.pt--none {
+  padding-top: 0 !important;
+}
+.pr {
+  padding-right: 20px;
+}
+.pr--maxi {
+  padding-right: 50px;
+}
+.pr--mini {
+  padding-right: 3px;
+}
+.pr--more {
+  padding-right: 30px;
+}
+.pr--less {
+  padding-right: 10px;
+}
+.pr--none {
+  padding-right: 0 !important;
+}
+.pb {
+  padding-bottom: 20px;
+}
+.pb--maxi {
+  padding-bottom: 50px;
+}
+.pb--mini {
+  padding-bottom: 3px;
+}
+.pb--more {
+  padding-bottom: 30px;
+}
+.pb--less {
+  padding-bottom: 10px;
+}
+.pb--none {
+  padding-bottom: 0 !important;
+}
+.pl {
+  padding-left: 20px;
+}
+.pl--maxi {
+  padding-left: 50px;
+}
+.pl--mini {
+  padding-left: 3px;
+}
+.pl--more {
+  padding-left: 30px;
+}
+.pl--less {
+  padding-left: 10px;
+}
+.pl--none {
+  padding-left: 0 !important;
+}
+.ph {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.ph--maxi {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.ph--mini {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.ph--more {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.ph--less {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.ph--none {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.pv {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.pv--maxi {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.pv--mini {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.pv--more {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.pv--less {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.pv--none {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+.pa {
+  padding: 20px;
+}
+.pa--maxi {
+  padding: 50px;
+}
+.pa--mini {
+  padding: 3px;
+}
+.pa--more {
+  padding: 30px;
+}
+.pa--less {
+  padding: 10px;
+}
+.pa--none {
+  padding: 0 !important;
+}
